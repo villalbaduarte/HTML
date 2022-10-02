@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!--Indica que es html 5.0-->
+<html>
+<head>
+    <title>Mi primera Web.</title>
+    <style>
+        table,th td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+           <td>Hola beats</td>
+           <td>Es gratis</td>
+        </tr>
+        <tr>
+            <td>chanchito feliz</td>
+            <td>$90</td>
+         </tr>
+         <tr>
+            <td>chanchito feliz muy feliz</td>
+            <td>$200</td>
+         </tr>
+    </table>
+
+    <!--Es una lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>    
+    </ul>
+        <!-- Ol Es una lista  ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li> 
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha;">sub Elemento 1</li>
+                <li style="list-style-type:lower-alpha;">sub Elemento 2</li>
+                <li style="list-style-type:lower-alpha;">sub Elemento 3</li>
+            </ol>
+        </li>   
+    </ol>
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="5" id="comentario" placeholder="ingrese comentario"></textarea>
+        <br>
+        <button type="button"> Tipo button</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo submit</button>     
+    </form>
+    <h1>Mi primer heading.</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi segundo heading.</h3>
+    <h4>Mi segundo heading</h4>
+    <h5>Mi segundo heading</h5>
+    <h6>Mi conchito feliz</h6>
+    <p>Es un <span style="color:darkmagenta">FrameWork</span> para el desarrollo de aplicaciones y contenedor de inversión de ... 
+        <br>Su carácter de "software libre" y su compatibilidad</p>
+    <p>Chanchito triste esta muy triste</p>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p>Un texto mas</p>
+    <a href="https://www.google.com" target="_blank">Ir a Google</a>
+    <img src="img/7habitosimagen0.png" width="400" /> <!--Al dejar solo width conserva relación entre ancho y alto de la imagen-->    
+</body>
+</html>
